@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        .container{
+            display:flex;
+            height:100px;
+        }
+        .cell {
+          text-align:center;
+          line-height:100px;
+          border:1px solid black;
+        }
+        .activity{
+            text-align:center;
+            border:1px solid black;
+        }
+        .cell2 {
+            width:70%;
+        }
+        .cell3 {
+            text-align:center;
+            width:30%;
+        }
+       
+        .star{
+            padding:15px;
+            float:left;
+            
+            height:30%;
+            width:15%;
+            text-align:center;
+            
+            }
+        .clicker::after {
+            content: "☆";
+            width:10px;
+            display:flex;
+            font-size: 70px;
+            top:10px;
+            
+        }
+          
+        [type="checkbox"]:checked ~ .clicker::after {
+            content: "\2605";
+            color: #e9cd10;
+            
+        }
+            .stars {
+                position: absolute;
+                left: -200vw;
+            }
+            
+        </style>
+        </head>
+<body>
+    <header>
+        <div class="container" style="height:100px;">
+            <div class="cell" style="width:30%;">LOGO</div>
+            <div class="cell" style="width:70%;">NAVIGATION</div>
+            </div>
+        </header>
+    <main>
+        <div class="container" style="height:60px;">
+            <div class="cell cell2" style="height:100%; line-height:60px;">PROJECT PROGRESS</div>
+            <div class="cell cell3" style="height:100%; line-height:60px;">MY BADGES</div>
+            </div>
+        <div class="container" style="height:500px;">
+            <div class="cell cell2" style="height:100%; line-height:500px;">MAIN CONTENT GOES HERE</div>
+            <div class="cell3" style="height:100%; ">
+            <section>
+            <div class="activity" style="height:290px; padding-left:30px;">
+                   
+                   <label for="toggle1">
+                    <input type="checkbox" id="toggle1" class="stars">
+                    <div class="star clicker"></div></label>
+                   <label for="toggle2">
+                    <input type="checkbox" id="toggle2" class="stars">
+                    <div class="star clicker"></div></label>
+                   <label for="toggle3">
+                    <input type="checkbox" id="toggle3" class="stars">
+                    <div class="star clicker"></div></label>
+                   <label for="toggle4">
+                    <input type="checkbox" id="toggle4" class="stars">
+                    <div class="star clicker"></div></label>
+                   <label for="toggle5">
+                    <input type="checkbox" id="toggle5" class="stars">
+                    <div class="star clicker"></div></label>
+                   <label for="toggle6">
+                    <input type="checkbox" id="toggle6" class="stars">
+                    <div class="star clicker"></div></label>
+                   <label for="toggle7">
+                    <input type="checkbox" id="toggle7" class="stars">
+                    <div class="star clicker"></div></label>
+                   <label for="toggle8">
+                    <input type="checkbox" id="toggle8" class="stars">
+                    <div class="star clicker"></div></label>
+                        
+
+                    
+
+            </div>
+            <div class="activity" style="height:50px; line-height:50px;">ACTIVITY ONE</div>
+            <div class="activity" style="height:50px; line-height:50px;">ACTIVITY TWO</div>
+            <div class="activity" style="height:50px; line-height:50px;">ACTIVITY THREE</div>
+            <div class="activity" style="height:50px; line-height:50px;">ACTIVITY FOUR</div>
+            </section>
+            </div>
+            </div>
+        </main>
+    <footer>
+        <div class="container" style="height:100px;">
+            <div class="cell cell2" style="height:100%; line-height:100px;">LOGO</div>
+            <div class="cell cell3" style="height:100%; line-height:100px;">NAVIGATION</div>
+            </div>
+        </footer>
+</body
+</html>
+
